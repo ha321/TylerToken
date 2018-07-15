@@ -7,8 +7,9 @@ import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
  * @title CryptoPuff
  * CryptoPuff - a contract for my non-fungible crypto puffs.
  */
-contract VacationMood is ERC721Token, Ownable {
-    function VacationMood() ERC721Token("TylerToken", "Tyler") public { }
+contract TylerToken is ERC721Token, Ownable {
+    string public constant symbol = "😊";
+    function TylerToken() ERC721Token("TylerToken", "TYLR") public { }
 
     /**
     * @dev Mints a token to an address with a tokenURI.
