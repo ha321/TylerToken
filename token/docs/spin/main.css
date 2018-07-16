@@ -223,14 +223,23 @@ body {
 }
 
 #getTokenButton {
-  background-color: orange;
-  width: 200px;
+  background: linear-gradient(to right, skyblue, yellow);
+  border-radius: 40px;
+  width: 240px;
+  height: 75px;
+  opacity: 0.9;
+}
+
+button h1 {
+  font-size: 55px;
+  color: white;
+  text-shadow: 3px 3px 2px pink;
 }
 
 .tokenButton {
   position: relative;
   margin: auto;
-  top: 800px;
+  top: 675px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -245,7 +254,8 @@ body {
 }
 
 #getTokenButton:hover {
-  background-color: lightgrey;
+  background: linear-gradient(to left, #f370ff, #4fff57);
+  opacity: 0.9;
 }
 
 #contract .container img {
