@@ -1,9 +1,7 @@
 window.onload = () => {
-  $(".container")
-    .hide(10)
-    .fadeIn(1000, function() {
-      //Stuff to do *after* the animation takes place
-    });
+  $(".container").fadeIn(1000, function() {
+    //Stuff to do *after* the animation takes place
+  });
 
   let btn = document.querySelector("button");
 
