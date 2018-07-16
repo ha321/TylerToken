@@ -20,7 +20,7 @@ window.onload = () => {
 
   var contract = null;
   var abi = null;
-  var contractAddress = "0xf75449c311af9ae61207fa9c8c35aed30b0871a8";
+  var contractAddress = "0xeb930c643384ec45fc80268e2019f40e33fe17f4";
   var account = null;
 
   if (typeof web3 !== "undefined") {
@@ -55,7 +55,7 @@ window.onload = () => {
 
   function loadABI() {
     return new Promise(function(resolve, reject) {
-      fetch("./build/contracts/VacationMood.json")
+      fetch("./build/contracts/TylerToken.json")
         .then(r => r.json())
         .then(json => {
           abi = json.abi;

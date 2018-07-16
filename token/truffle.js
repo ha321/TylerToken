@@ -2,7 +2,7 @@ var HDWalletProvider = require("truffle-hdwallet-provider");
 var testnetMnemonic =
   "mutual life endless direct direct shell rich dance scheme hunt into lend hero spare coral";
 var testnetWalletAddress = "0xbf20394C1a0F6784e5A1fD6c4C2e6baCDb8DD4c6";
-var testnetContractAddress = "0x230b5cde7b04d3814f6599be79fe9b2570279a1b";
+var testnetContractAddress = "0xeb930c643384ec45fc80268e2019f40e33fe17f4";
 
 var mainnetMnemonic = "XXX";
 
